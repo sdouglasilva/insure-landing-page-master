@@ -1,85 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Insure landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Insure landing page</title>
 
-  How we work
-  Blog
-  Account
-  View plans
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="" />
+      <nav>
+        <ul>
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        </ul>
+        <button type="submit">View Plans</button>
+      </nav>
+    </header>
+    <main>
+      <section class="pattern-intro">
+        <!-- <hr/> -->
+        <img
+          class="intro-left"
+          src="./images/bg-pattern-intro-left-desktop.svg"
+          alt="design"
+        />
+        <div class="main-content">
+          <div class="main-text">
+            <h1>Humanizing <br> your insurance.</h1>
+            <p>
+              Get your life insurance coverage easier and faster. We blend our
+              expertise and technology to help you find the plan that’s right for
+              you. Ensure you and your loved ones are protected.
+            </p>
+          </div>
+          <img
+            class="intro-right"
+            src="./images/bg-pattern-intro-right-desktop.svg"
+            alt="design"
+          />
+          <button>VIEW PLANS</button>
+        </div>
+        <img class="intro-desktop" src="./images/image-intro-desktop.jpg" alt="" />
+      </section>
+      <section>
+        <hr />
+        <h2>We're different</h2>
+        <div class="info">
+          <img src="./images/icon-snappy-process.svg" alt="processo rápido" />
+          <h3>Snappy Process</h3>
+          <p>
+            Our application process can be completed in minutes, not hours.
+            Don’t get stuck filling in tedious forms.
+          </p>
+        </div>
+        <div class="info">
+          <img src="./images/icon-affordable-prices.svg" alt="muita grana" />
+          <h3>Affordable Price</h3>
+          <p>
+            We don’t want you worrying about high monthly costs. Our prices may
+            be low, but we still offer the best coverage possible.
+          </p>
+        </div>
+        <div class="info">
+          <img
+            src="./images/icon-snappy-process.svg"
+            alt="pessoas em primeiro lugar sempre"
+          />
+          <h3>PeopleFirst</h3>
+          <p>
+            Our plans aren’t full of conditions and clauses to prevent payouts.
+            We make sure you’re covered when you need it.
+          </p>
+        </div>
+        <div class="banner-pattern">
+          <h2>Find out more about how we work</h2>
+          <button>HOW WE WORK</button>
+          <img
+            src="./images/bg-pattern-how-we-work-desktop.svg"
+            alt="bg-pattern"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="./images/bg-pattern-footer-desktop.svg" alt="" />
+      <img src="./images/logo.svg" alt="" />
+      <div>
+        <a href="#"><img src="./images/icon-facebook.svg" alt="" /></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="" /></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="" /></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="" /></a>
+        <hr />
+        <h4>OUR COMPANY</h4>
+        <ul>
+          <li><a href="#">HOW WE WORK</a></li>
+          <li><a href="#">WHY INSURE?</a></li>
+          <li><a href="#">VIEW PLANS</a></li>
+          <li><a href="#">REVIEWS</a></li>
+        </ul>
+        <h4>HELP ME</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">TERMS OF USE</a></li>
+          <li><a href="#">PRIVACY POLICY</a></li>
+          <li><a href="#">COOKIES</a></li>
+        </ul>
+        <h4>CONTACT</h4>
+        <ul>
+          <li><a href="#">SALES</a></li>
+          <li><a href="#">SUPPORT</a></li>
+          <li><a href="#">LIVE CHAT</a></li>
+        </ul>
+        <h4>OTHERS</h4>
+        <ul>
+          <li><a href="#">CARRERS</a></li>
+          <li><a href="#">PRESS</a></li>
+          <li><a href="#">LICENSES</a></li>
+        </ul>
+      </div>
+    </footer>
 
-  Humanizing your insurance.
+    View plans Humanizing your insurance. View plans We’re different Snappy
+    Process Affordable Prices People First How we work Our company How we work
+    Why Insure? View plans Reviews Help me FAQ Terms of use Privacy policy
+    Cookies Contact Sales Support Live chat Others Careers Press Licenses
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
-
-  View plans
-
-  We’re different
-
-  Snappy Process
-
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
-
-  Affordable Prices
-
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
-
-  People First
-
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
-
-  Find out more about how we work
-
-  How we work
-
-  Our company
-
-  How we work
-  Why Insure?
-  View plans
-  Reviews
-
-  Help me
-
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
-
-  Contact
-
-  Sales
-  Support
-  Live chat
-
-  Others
-
-  Careers
-  Press
-  Licenses
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="www.github.com/sdouglasilva">Douglas</a>.
+    </div>
+  </body>
 </html>

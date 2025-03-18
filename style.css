@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--FontFamily);
+}
+
+:root{
+    /*Primary*/
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    /*Neutral*/
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+
+    /*Fontes*/
+    --FontBody: font-size: 16px;
+    --FontFamily: "DM Serif Display", serif;
+
+}
+
+body{
+    background-color: var(--VeryLightGray);
+}
+header{ margin: 20px;
+
+}
+header > img {
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+
+}
+nav > button {
+    padding: 10px;
+    height: 2.5rem;
+    width: 9rem;
+    border: 2px solid var(--DarkViolet);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 2px;
+    font-size: medium;
+}
+button:hover{
+    background-color: var(--VeryDarkViolet);
+    color: white;
+ }
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+ul > li, a {
+    font-family: var(--FontFamily);
+    color: var(--GrayishBlue);
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+a:hover {
+    font-family: var(--FontFamily);
+    color: var(--VeryDarkViolet);
+}
+/* hr{
+    background-color: white;
+    width: 500px;
+} */
+h1{
+    color: var(--VeryLightGray);
+    font-size: 5rem;
+}
+.intro-desktop{
+    position: relative;
+    z-index: 9;
+    right: 14rem;
+    top: 7rem;
+
+}
+
+.pattern-intro{
+    background-color: var(--DarkViolet);
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.intro-left{
+    z-index: 9;
+    position: absolute;
+    
+}
+.intro-right{
+    z-index: 12;
+    position: absolute;
+    right: 0.2rem;
+    top: 6.5rem;
+
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    word-wrap: break-word;
+    text-align: justify;
+    
+}
+.main-content > p {
+    background-color: aqua;
+    text-align: justify;
+}
+.main-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
