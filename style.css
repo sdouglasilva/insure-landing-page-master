@@ -75,13 +75,12 @@ a:hover {
     font-family: var(--FontFamily);
     color: var(--VeryDarkViolet);
 }
-/* hr{
-    background-color: white;
-    width: 500px;
-} */
-h1{
-    color: var(--VeryLightGray);
-    font-size: 5rem;
+hr{
+    background-color: rgb(192, 45, 45);
+    z-index: 9;
+    width: 200px;
+    height: 2px;
+    position: relative;
 }
 .intro-desktop{
     position: relative;
@@ -101,6 +100,7 @@ h1{
 .intro-left{
     z-index: 9;
     position: absolute;
+    top: 30vw;
     
 }
 .intro-right{
@@ -115,6 +115,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 h1{
     word-wrap: break-word;
@@ -122,13 +123,44 @@ h1{
     
 }
 .main-content > p {
+    position: relative;
     background-color: aqua;
     text-align: justify;
 }
+.main-content > button{
+    padding: 10px;
+    height: 2.5rem;
+    width: 9rem;
+    border: 1px solid var(--VeryLightGray);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    background-color: var(--DarkViolet);
+    border-radius: 2px;
+    font-size: medium;
+    color: var(--VeryLightGray);
+   
+
+}
 .main-text{
+    position: relative;
     align-items: center;
     text-align: center;
     justify-content: center;
+    left: 200px;
+}
+.main-text > h1{
+    color: var(--VeryLightGray);
+    font-size: 5rem;
+    text-align: justify;
+    width: 40vw;
+
+}
+
+.main-text > p {
+    justify-content: center;
+    text-align: left;
+    width: 40vw;
+    color: var(--VeryLightGray);
 }
 
 
