@@ -25,7 +25,8 @@
 body{
     background-color: var(--VeryLightGray);
 }
-header{ margin: 20px;
+header{ 
+    margin: 20px;
 
 }
 header > img {
@@ -143,10 +144,15 @@ h1{
 }
 .main-text{
     position: relative;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: start;
     left: 200px;
+    gap: 10px;
+    padding: 20px;
+
 }
 .main-text > h1{
     color: var(--VeryLightGray);
@@ -163,6 +169,25 @@ h1{
     color: var(--VeryLightGray);
 }
 
+.main-text > button{
+        padding: 10px;
+        height: 2.5rem;
+        width: 9rem;
+        border: 1px solid var(--VeryLightGray);
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        background-color: var(--DarkViolet);
+        border-radius: 2px;
+        font-size: medium;
+        color: var(--VeryLightGray);
+}
+
+.pattern{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
