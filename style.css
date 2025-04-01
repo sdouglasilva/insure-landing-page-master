@@ -183,12 +183,24 @@ h1{
 }
 
 .pattern{
-    background-color: blueviolet;
-    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.pattern-title{
+    padding: 50px;
+
 }
 
+.pattern-title > h2{
+    font-size: 50px;
+    margin-top: 40  px;
+}
+.pattern-content{
+    display: flex;
+    background-color: blueviolet;
+}
 
 
 
